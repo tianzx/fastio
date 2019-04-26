@@ -6,9 +6,13 @@
 
   <groupId>io.tianzx</groupId>
   <artifactId>fastio</artifactId>
-  <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>fastio-core</module>
+    </modules>
 
-  <name>fastio</name>
+    <name>fastio</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
